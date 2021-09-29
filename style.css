@@ -5,6 +5,7 @@
 #title{
     text-align: center;
     padding-top: 5rem;
+    font-weight: bolder;
 }
 body{
     display: flex;
@@ -38,24 +39,31 @@ body{
 button{
     background-color:teal;
    color:white;
-   height: 3rem;
-   width: 7rem;
-   border-radius: 0.8rem;
+   height:2.53rem;
+   width: 8rem;
+   border-radius: 1.5rem;
    cursor: pointer;
+   outline: 0;
+   border:0;
+   font-weight: 700;
+}
+button:hover{
+    background-color:hsl(180, 100%, 15%);
 }
 a{
    color:teal;
    text-decoration: none;
    cursor: pointer;
-
+}
+a:hover{
+    text-decoration: underline;
 }
 #link{
     padding-top: 1.2rem;
     font-size: 1.2rem;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
     #title {
         padding-top: 1.0rem;
-
     }
   }
